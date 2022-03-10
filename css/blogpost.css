@@ -1,0 +1,21 @@
+.post-img{
+    height: 450px;
+    overflow: hidden;
+}
+.post-img img{
+    width: 100%;
+}
+.blog-articles {
+    flex-direction: column;
+}
+.blog-article{
+    padding: 30px;
+}
+.col-pos{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.blog-articles img{
+    width: 80%;
+}

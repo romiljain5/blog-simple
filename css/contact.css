@@ -1,0 +1,10 @@
+.form-box{
+    padding: 5px;
+}
+.form-box input, textarea{
+    width: 34vw;
+    padding: 10px 7px;
+}
+.blog-article {
+    min-height: 80vh;
+}

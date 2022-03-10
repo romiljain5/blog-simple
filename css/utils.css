@@ -1,0 +1,39 @@
+
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.font-1{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.font-2{
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-input{
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}

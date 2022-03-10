@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500;800&family=Roboto&display=swap');
+:root {
+    --main-bg-color: purple;
+    --font1:'Baloo Bhaina 2', cursive;
+    --font2:'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    text-decoration: none;
+    font-family: var(--font1);
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-bg-color);
+}
+.navigation{
+    font-family: var(--font1);
+    height: 70px;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+.content{
+    display: flex;
+    margin: 20px auto 20px auto;
+}
+.content-left{
+    width: 50%;
+    font-family: var(--font1);
+    padding: 0 0 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img{
+    width: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.content{
+    height: 395px;
+    background: rgb(244, 244, 255);
+}
+.blog-article{
+    min-height: 395px;
+    background: rgb(255, 224, 224);
+}
+.blog-articles img{
+    width: 20%;
+}
+.blog-articles{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+.ar-content{
+    padding: 0 0 0 3%;
+}
+.ar-content a{
+    text-decoration: none;
+    color: #000;
+}
+.blog-articles span{
+    font-weight: 600;
+    line-height: 3em;
+}
+.blog-articles ul li{
+    margin-top: 10px;
+    list-style: none;
+    display:inline;
+}
+.blog-article h2{
+    padding: 20px 0;
+}
+.footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-bg-color);
+    font-family: var(--font1);
+    font-size: 16px;
+    color: white;
+    /* background: blueviolet; */
+}
